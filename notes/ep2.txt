@@ -1,0 +1,65 @@
+what is NPM?
+npm is basically a package manager which contains lots 
+of dependencies.
+
+what is Parcel/webpack?
+it is a bundler for bundling various js,html , css file to able to develop a new web app.
+
+what is parcel-cache?
+parcel basically cache the data/code which we have executed.
+
+what is npx?
+npx is used to execute a package.
+
+diffn between dependencies vs devdependencies?
+dependencies - a libraries usede in productuion env.
+ex - react ,vuejs.
+devdependencies - a lib used in developmenet env.
+ex- parcel , webpack.
+
+tree shaking - remove unused code in program
+
+Hot module replacement - update your code without requiring a full page reload.
+
+List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+1.tree shaking
+2.hot module replacement
+3.dev build
+4.Image optimization
+5.minification of file.
+6.consistent hashing
+7.diagnostic
+8.code splitting
+
+What is `.gitignore`? What should we add and not add into it?
+gitignore is file in which whatever we dont have to include while pushing the code on git can be mentioned.
+the data which can't be regenrated shouldn't be added into gitignore.
+like app.js or index.html
+we can include node_modules.
+
+What is the difference between `package.json` and `package-lock.json`
+package.json - it contains approx details of dependencies
+package-lock.json - it contains exact/lock details of all included dependecies
+
+Why should I not modify `package-lock.json`?
+beacuse why we want to change while it still stores exact info of dependcies.
+
+What is `node_modules` ? Is it a good idea to push that on git?
+node_modules - collection of packages
+not a good idea to push it bcoz we can regenerate it.
+
+What is the `dist` folder?
+a folder created after building an app using parcel.
+it contains minified code in it of exact same code of ours.
+
+What is `browserlists`?
+it is a config which is used to state/target any browser we want it to display our app.
+
+^ - caret and ~ - tilda
+
+^ - update a minor version if available
+~ - update a major version if available
+
+
+

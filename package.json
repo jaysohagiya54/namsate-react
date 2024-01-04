@@ -1,0 +1,34 @@
+{
+  "name": "namsate-react",
+  "version": "1.0.0",
+  "description": "By Jay Sohagiya",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaysohagiya54/namsate-react.git"
+  },
+  "keywords": [
+    "react",
+    "learn",
+    "frontend"
+  ],
+  "author": "Jay Sohagiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaysohagiya54/namsate-react/issues"
+  },
+  "homepage": "https://github.com/jaysohagiya54/namsate-react#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1"
+  }
+}
